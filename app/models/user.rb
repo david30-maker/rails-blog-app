@@ -1,10 +1,5 @@
 class User < ApplicationRecord
-    has_many :likes, foreign_key: 'author_id', dependent: :destroy
-    has_many :posts, foreign_key: 'author_id', dependent: :destroy
-    has_many :comments, foreign_key: 'author_id', dependent: :destroy
-    # has_secure_password
-    # has_many :posts
-    # has_many :comments
-    # validates :name, presence: true, uniqueness: true
-    # validates :password, presence: true, length: { minimum: 6 }
+  has_many :likes, foreign_key: 'author_id', dependent: :destroy
+  has_many :posts, foreign_key: 'author_id', dependent: :destroy
+  has_many :comments, foreign_key: 'author_id', dependent: :destroy
 end
