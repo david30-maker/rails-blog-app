@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Ruby-Group-Capstone] <a name="about-project"></a>
+# 📖 [Rails-blog-app] <a name="about-project"></a>
 
 > ## The **Rails-blog-app** project 'BlogApp' app is a Ruby on Rails based that allows Users to make a comment on posts, like the posts and posts as well.
 
@@ -153,10 +153,6 @@ rspec spec/filename.rb
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://git@github.com:david30-maker/rails-blog-app.git/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
