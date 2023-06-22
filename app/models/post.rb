@@ -12,11 +12,11 @@ class Post < ApplicationRecord
   private
 
   def increment_author_posts_counter
-    author.increment!(:posts_count)
+    author.increment!(:posts_counter)
   end
 
   def decrement_user_posts_counter
-    user.decrement!(:posts_count)
+    author.decrement!(:posts_counter)
   end
 
   def recent_comments
