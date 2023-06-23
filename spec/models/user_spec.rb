@@ -15,7 +15,7 @@ RSpec.describe User, type: :model do
 
   describe '#recent_posts' do
     it 'returns the 3 most recent posts' do
-      user = User.create!(name: 'John Doe', posts_counter: 0)
+      user = User.create!(name: 'David Okpah', posts_counter: 0)
       post1 = user.posts.create!(title: 'Post 1', text: 'This is the first post', comments_counter: 0, likes_counter: 0)
       post2 = user.posts.create!(title: 'Post 2', text: 'This is the second post', comments_counter: 0, likes_counter: 0)
       post3 = user.posts.create!(title: 'Post 3', text: 'This is the third post', comments_counter: 0, likes_counter: 0)
@@ -23,10 +23,8 @@ RSpec.describe User, type: :model do
 
       recent_posts = user.recent_posts
 
-      # expect(recent_posts.first).to eq(post4)
       expect(recent_posts.pluck(:id)).to eq([post4.id, post3.id, post2.id])
 
-      # expect(recent_posts).to eq([post4, post3, post2])
     end
   end
 end
