@@ -1,5 +1,6 @@
 require 'rails_helper'
 require 'shoulda/matchers'
+
 RSpec.describe User, type: :model do
   describe 'validations' do
     it { should validate_presence_of(:name) }
@@ -22,7 +23,9 @@ RSpec.describe User, type: :model do
 
       recent_posts = user.recent_posts
 
-      expect(recent_posts.first).to eq(post4)
+      # expect(recent_posts.first).to eq(post4)
+      expect(recent_posts.pluck(:id)).to eq([post4.id, post3.id, post2.id])
+
       # expect(recent_posts).to eq([post4, post3, post2])
     end
   end
