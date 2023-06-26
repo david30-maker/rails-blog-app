@@ -1,0 +1,1 @@
+<h1> User's all posts will display here <h1>
