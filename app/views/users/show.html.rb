@@ -1,1 +1,0 @@
-<h1> Details for user will display here<h1>
