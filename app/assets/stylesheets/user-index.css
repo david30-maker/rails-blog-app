@@ -1,0 +1,39 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #user-display {
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff8f8;
+  }
+
+  .img-container {
+    border: 1px solid #000;
+    width: 15%;
+    
+  }
+
+.img-username {
+  display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.post {
+    width: 80%;
+    border: 1px solid #000;
+}
+
+.post h2 {
+    margin-left: 160px;
+}
+
+.post p {
+    margin-left: 350px;
+}
