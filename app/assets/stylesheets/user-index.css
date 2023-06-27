@@ -14,7 +14,7 @@ body {
   .img-container {
     border: 1px solid #000;
     width: 15%;
-    
+    height: 40%
   }
 
 .img-username {
@@ -35,5 +35,5 @@ body {
 }
 
 .post p {
-    margin-left: 350px;
+    margin-left: 340px;
 }
