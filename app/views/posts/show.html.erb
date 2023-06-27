@@ -1,1 +1,9 @@
-<h1>posts detail will display here</h1>
+<h1><%= @post.title %></h1>
+<p>Author: <%= @post.author.name %></p>
+<p>Comments: <%= @post.comments_counter %></p>
+<p>Likes: <%= @post.likes_counter %></p>
+
+<% @post.recent_comments.each do |comment| %>
+  <p><%= comment.text %></p>
+  <p>Author: <%= comment.user.name %></p>
+<% end %>
