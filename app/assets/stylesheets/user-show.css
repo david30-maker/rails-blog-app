@@ -1,0 +1,65 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+#user-details {
+  margin: 20px 0 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff8f8;
+}
+
+.user-description {
+  display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.user-name {
+ border: 1px solid #000;
+ width: 60%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-name h2 {
+  margin-left: 120px;
+}
+
+.user-name h6 {
+    margin: 0 0 20px 220px;
+}
+
+
+.img-div {
+    width: 35%;
+    height: 100%;
+    border: 2px solid #000;
+}
+
+.bio-description {
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.user-posts {
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.comment-like {
+ margin-left: 380px;
+}
+
+#user-btn {
+  margin: 20px 0 0 230px;
+  padding: 10px;
+  border: 1px solid #000;
+  text-decoration: none;
+}
