@@ -24,10 +24,6 @@ body {
   font-size: 20px;
 }
 
-.user-name {
-  padding: 0 0 0 2px;
-}
-
 .user-name h6 {
   margin: 0 0 20px 140px;
 }
@@ -40,12 +36,11 @@ body {
 
 .img {
   width: 52px;
-  height: 1i5px;
+  height: 115px;
   object-fit: cover;
 }
 
 .bio-description {
-  align-items: center;
   padding: 0 0 0 10px;
   border: 2px solid #000;
 }
@@ -71,7 +66,12 @@ body {
   .user-name {
     width: 80%;
     padding: 0 0 0 10px;
-    
+  }
+
+  .img {
+    width: 180px;
+    height: 115px;
+    object-fit: cover;
   }
 
   .user-name h6 {
