@@ -6,8 +6,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by(id: params[:id])
-   
-    
+
     if @user
       @posts = @user.recent_posts
       render :show
@@ -16,4 +15,3 @@ class UsersController < ApplicationController
     end
   end
 end
-

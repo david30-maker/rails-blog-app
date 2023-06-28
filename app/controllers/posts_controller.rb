@@ -3,7 +3,7 @@ class PostsController < ApplicationController
     @posts = Post.all
     @user = User.find_by(id: params[:user_id])
     author_id = params[:author_id]
-    @posts = @posts.where(author_id: author_id) if author_id.present?
+    @posts = @posts.where(author_id:) if author_id.present?
     @comments = @posts.map(&:recent_comments)
     render :index
   end
