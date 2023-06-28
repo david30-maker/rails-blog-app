@@ -30,9 +30,29 @@ body {
 }
 
 .post h2 {
-  margin-left: 160px;
+  margin-left: 120px;
 }
 
 .post p {
-  margin-left: 340px;
+  margin-left: 130px;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-container {
+    width: 18%;
+    height: 20%;
+  }
+
+  .post {
+    width: 80%;
+    border: 1px solid #000;
+  }
+
+  .post h2 {
+    margin-left: 450px;
+  }
+
+  .post p {
+    margin-left: 850px;
+  }
 }

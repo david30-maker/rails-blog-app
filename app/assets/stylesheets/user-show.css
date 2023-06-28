@@ -1,5 +1,5 @@
 body {
-  background-color: #f5f5f5;
+  background-color: #fce8e8;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -20,21 +20,21 @@ body {
 
 .user-name {
   border: 1px solid #000;
-  width: 60%;
+  width: 80%;
   font-size: 20px;
   font-weight: bold;
 }
 
 .user-name h2 {
-  margin-left: 120px;
+  margin-left: 110px;
 }
 
 .user-name h6 {
-  margin: 0 0 20px 220px;
+  margin: 0 0 20px 140px;
 }
 
 .img-div {
-  width: 35%;
+  width: 15%;
   height: 100%;
   border: 2px solid #000;
 }
@@ -52,12 +52,42 @@ body {
 }
 
 .comment-like {
-  margin-left: 380px;
+  margin-left: 150px;
 }
 
 #user-btn {
-  margin: 20px 0 0 230px;
+  margin: 20px 0 0 130px;
   padding: 10px;
   border: 1px solid #000;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+ 
+  .user-name {
+    width: 80%;
+  }
+
+  .img-div {
+    width: 15%;
+  }
+
+  .user-name h2 {
+    margin-left: 500px;
+  }
+  
+  .user-name h6 {
+    margin: 0 0 20px 820px;
+  }
+
+  .comment-like {
+    margin-left: 1010px;
+  }
+
+  #user-btn {
+    margin: 20px 0 0 620px;
+    padding: 10px;
+    border: 1px solid #000;
+    text-decoration: none;
+  }
 }

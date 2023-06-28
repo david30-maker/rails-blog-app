@@ -10,11 +10,19 @@
 }
 
 .comment-count {
-  margin-left: 390px;
+  margin-left: 150px;
 }
 
 .comment-section {
   display: flex;
   padding: 10px;
   border: 1px solid #000;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .comment-count {
+    margin-left: 1010px;
+  }
+
 }
