@@ -9,6 +9,12 @@
   padding: 10px;
 }
 
+.img {
+  width: 52px;
+  height: 116px;
+  object-fit: cover;
+}
+
 .comment-count {
   margin-left: 150px;
 }
@@ -22,5 +28,11 @@
 @media only screen and (min-width: 768px) {
   .comment-count {
     margin-left: 1010px;
+  }
+
+  .img {
+    width: 180px;
+    height: 114px;
+    object-fit: cover;
   }
 }

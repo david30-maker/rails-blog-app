@@ -4,19 +4,19 @@ body {
 }
 
 #user-display {
-  margin: 20px 0 20px 0;
   padding: 10px;
   border: 1px solid #ccc;
   background-color: #fff8f8;
+  border: 1px solid #000;
 }
 
-.img-container {
+.post-img {
   border: 1px solid #000;
   width: 15%;
   height: 40%;
 }
 
-.img-username {
+.image-user {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,34 +25,61 @@ body {
 }
 
 .post {
+  margin-left: 10px;
   width: 80%;
   border: 1px solid #000;
 }
 
 .post h2 {
-  margin-left: 120px;
+  padding-left: 10px;
+}
+
+.post-img {
+  width: 15%; 
+  height: 15%;
+  overflow: hidden;
+ border: 1px solid #000;
+}
+
+.img {
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
 }
 
 .post p {
   margin-left: 130px;
 }
 
-@media only screen and (min-width: 768px) {
-  .img-container {
-    width: 18%;
-    height: 20%;
-  }
+.user-link {
+  text-decoration: none;
+  color: #000;
+}
 
-  .post {
-    width: 80%;
+@media only screen and (min-width: 768px) {
+  .img-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    width: 100%;
     border: 1px solid #000;
   }
+  
+ .post-img {
+  width: 15%;
+  height: 15%;
+ border: 1px solid #000;
+}
 
-  .post h2 {
-    margin-left: 450px;
-  }
+.img {
+  width: 185px;
+  height: 100x;
+  object-fit: cover;
+}
 
-  .post p {
-    margin-left: 850px;
-  }
+.post p {
+  margin-left: 850px;
+}
 }

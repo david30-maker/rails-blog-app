@@ -1,16 +1,18 @@
 <%= stylesheet_link_tag('user-index')%>
 
-
 <div id="user-display">
-<div class="img-username">
-<div class="img-container">
- <%= image_tag  "" %>
-</div>
-<div class="post">
-<% @users.each do |user| %>
-    <h2><%= user.name %></h2>
-    <p>Number of posts: <%= user.posts_counter %></p>
-  </div>
-<% end %>
-</div>
+
+  <% @users.each do |user| %>
+    <a href="/users/<%= user.id %>" class="user-link">
+    <div class="image-user">
+      <div class="post-img">
+         <%= image_tag(user.photo, class: "img") %>
+      </div>
+      <div class="post">
+        <h2><%= user.name %></h2>
+        <p>Number of posts: <%= user.posts_counter %></p>
+      </div>
+      </div>
+    </a>
+  <% end %>
 </div>

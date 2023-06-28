@@ -15,10 +15,10 @@
 <p><%= @post.text %></p>
 </div>
 
-<div class="comments-container">
 <% @post.recent_comments.each do |comment| %>
-  <p>Author: <%= comment.user.name %></p>
-  <p><%= comment.text%></p>
-  </div>
+    <div class="comment-section">
+      <h4><%= comment.author.name %>:</h4>
+      <p><%= comment.text %></p>
+    </div>
 <% end %>
 </div>
