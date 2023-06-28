@@ -12,15 +12,15 @@ body {
 
 .user-description {
   display: flex;
-   flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin: 10px 0 10px 0;
 }
 
 .user-name {
- border: 1px solid #000;
- width: 60%;
+  border: 1px solid #000;
+  width: 60%;
   font-size: 20px;
   font-weight: bold;
 }
@@ -30,20 +30,19 @@ body {
 }
 
 .user-name h6 {
-    margin: 0 0 20px 220px;
+  margin: 0 0 20px 220px;
 }
 
-
 .img-div {
-    width: 35%;
-    height: 100%;
-    border: 2px solid #000;
+  width: 35%;
+  height: 100%;
+  border: 2px solid #000;
 }
 
 .bio-description {
-    align-items: center;
-    padding: 10px;
-    border: 2px solid #000;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #000;
 }
 
 .user-posts {
@@ -53,7 +52,7 @@ body {
 }
 
 .comment-like {
- margin-left: 380px;
+  margin-left: 380px;
 }
 
 #user-btn {

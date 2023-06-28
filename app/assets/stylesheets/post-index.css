@@ -1,10 +1,10 @@
 .post-index-container {
-  border: 1px solid #000000;
-    padding: 10px;
+  border: 1px solid #000;
+  padding: 10px;
 }
 
 .title-text {
- border: 1px solid #000000;
+  border: 1px solid #000;
   margin-bottom: 0.5em;
   padding: 10px;
 }
@@ -16,5 +16,5 @@
 .comment-section {
   display: flex;
   padding: 10px;
-  border: 1px solid #000000;
+  border: 1px solid #000;
 }
