@@ -1,5 +1,0 @@
-<%= form_with model: Comment.new, url: comments_path, method: :post do |f| %> 
-  <%= f.hidden_field :post_id, value: @post.id %>
-  <%= f.text_area :content, placeholder: "Enter your comment" %>
-  <%= f.submit "Create Comment" %> 
-<%end%>
