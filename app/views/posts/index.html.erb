@@ -21,7 +21,7 @@
     </div>
   <% post.recent_comments.each do |comment| %>
     <div class="comment-section">
-      <h4><%= comment.author.name %></h4>
+      <h4><%= comment.author.name %>:</h4>
       <p><%= comment.text %></p>
     </div>
   <% end %>
