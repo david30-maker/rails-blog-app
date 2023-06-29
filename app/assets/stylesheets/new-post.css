@@ -1,10 +1,11 @@
 h2 {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
+
 .form-container {
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -15,7 +16,7 @@ h2 {
 .form-input {
   width: 80%;
   margin: 10px 0 10px 2px;
-    padding: 2px;
+  padding: 2px;
 }
 
 .form-input label {
@@ -24,12 +25,12 @@ h2 {
 }
 
 .create-btn {
-    width: 20%;
-    margin-left: 61.5%;
-    padding: 5px;
-    background-color: #c42de6;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 20%;
+  margin-left: 61.5%;
+  padding: 5px;
+  background-color: #c42de6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

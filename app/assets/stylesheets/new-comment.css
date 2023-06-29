@@ -1,10 +1,11 @@
 h3 {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
+
 .comment_container {
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -13,16 +14,16 @@ h3 {
 }
 
 .comment_box {
-    display: block;
-    margin: 10px 0;
+  display: block;
+  margin: 10px 0;
 }
 
 .comment_btn {
-    /* width: 20%; */
-    padding: 5px;
-    background-color: #a531f1;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  /* width: 20%; */
+  padding: 5px;
+  background-color: #a531f1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
