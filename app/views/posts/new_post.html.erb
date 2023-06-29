@@ -1,4 +1,4 @@
-<%= form_with model: Post.new, url: posts_path, method: post do |f| %>
+<%= form_with model: Post.new, url: posts_path, method: :post do |f| %>
     <%= f.text_field :title, placeholder: "Enter your post title" %>
     <%= f.text_area :content, placeholder: "Enter your post content" %>
     <%= f.submit "Create Post" %>
