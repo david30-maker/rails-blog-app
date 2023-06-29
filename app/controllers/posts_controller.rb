@@ -18,4 +18,11 @@ class PostsController < ApplicationController
       redirect_to posts_url
     end
   end
+
+  def like 
+    @post = Post.find_by(params[:id])
+    # @user = User.find_by(id: params[:user_id])
+    @post.likes.create(user: current_user)
+    redirect_to  @post
+  end
 end
