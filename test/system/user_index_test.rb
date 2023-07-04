@@ -22,7 +22,6 @@ class UserIndexTest < ApplicationSystemTestCase
     assert_text 'Number of posts: 10'
   end
 
-
   test 'User index page redirects to the user show page when a user link is clicked' do
     visit users_path
 

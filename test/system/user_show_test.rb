@@ -2,27 +2,26 @@
 require 'test_helper'
 
 class UserShowTest < ActionDispatch::IntegrationTest
-    test 'displays user details correctly' do
-        user = users(:one)
-        post1 = Post.create(title: 'Post 1', text: 'Post 1 text', comments_counter: 5, likes_counter: 10, author: user)
-        post2 = Post.create(title: 'Post 2', text: 'Post 2 text', comments_counter: 3, likes_counter: 7, author: user)
-        post3 = Post.create(title: 'Post 3', text: 'Post 3 text', comments_counter: 2, likes_counter: 4, author: user)
-      
-        # Update the posts_counter value based on the number of posts
-        user.update(posts_counter: user.posts.count)
-      
-        get user_path(user)
-      
-        assert_response :success
-        assert_select '#user-details'
-      
-        assert_select '.user-description' do
-          assert_select '.img-div'
-          assert_select "img[src*='#{user.photo}']"
-          assert_select '.user-name h2', text: user.name
-          assert_select 'h6', text: "Number of posts: #{user.posts_counter}"
-        end
-  
+  test 'displays user details correctly' do
+    user = users(:one)
+    Post.create(title: 'Post 1', text: 'Post 1 text', comments_counter: 5, likes_counter: 10, author: user)
+    Post.create(title: 'Post 2', text: 'Post 2 text', comments_counter: 3, likes_counter: 7, author: user)
+    Post.create(title: 'Post 3', text: 'Post 3 text', comments_counter: 2, likes_counter: 4, author: user)
+
+    user.update(posts_counter: user.posts.count)
+
+    get user_path(user)
+
+    assert_response :success
+    assert_select '#user-details'
+
+    assert_select '.user-description' do
+      assert_select '.img-div'
+      assert_select "img[src*='#{user.photo}']"
+      assert_select '.user-name h2', text: user.name
+      assert_select 'h6', text: "Number of posts: #{user.posts_counter}"
+    end
+
     assert_select '.bio-description' do
       assert_select 'h3', text: 'Bio'
       assert_select 'p', text: user.bio
@@ -55,24 +54,6 @@ class UserShowTest < ActionDispatch::IntegrationTest
 
       assert_select 'h3', text: post.title
       assert_select 'div', text: post.text
-
     end
   end
-
-#   test 'redirects to the user posts index page when clicking "See all posts"' do
-#     user = users(:one)
-  
-#     get user_path(user)
-#     assert_response :success
-  
-#     assert_select '.see-posts a' do |elements|
-#       assert_operator elements.size, :>=, 1
-#       post_index_link = elements.first.attr('href')
-  
-#       get post_index_link
-#       assert_response :redirect
-#       assert_redirected_to user_posts_path(user)
-#     end
-#   end
- 
 end
