@@ -40,6 +40,5 @@ class PostIndexTest < ActionDispatch::IntegrationTest
         end
       end
     end
-    #     assert_select '.btn_3', text: 'Pagination'
   end
 end
