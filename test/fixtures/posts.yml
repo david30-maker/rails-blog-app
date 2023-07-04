@@ -13,3 +13,10 @@ two:
   comments_counter: 1
   likes_counter: 1
   author: two
+
+three:
+  title: MyString
+  text: MyText
+  comments_counter: 1
+  likes_counter: 1
+  author: one
