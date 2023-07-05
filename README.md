@@ -136,9 +136,13 @@ rspec spec/filename.rb
 - Twitter: [@davidigbo1](https://twitter.com/davidigbo1)
 - LinkedIn: [davidigbo/](https://www.linkedin.com/in/davidigbo/)
 
+👤 **Taiwo Enoch**
+
 - GitHub: [@TaiwoEnoch]
 - Twitter: [@taiwoenoch4]
 - LinkedIn: [@taiwo01/]
+
+👤 **Lengushuru Charles**
 
 - GitHub: [@lengushuru](https://github.com/lengushuru)
 - Twitter: [@lengushuru](https://twitter.com/lengush)
