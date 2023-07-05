@@ -136,6 +136,16 @@ rspec spec/filename.rb
 - Twitter: [@davidigbo1](https://twitter.com/davidigbo1)
 - LinkedIn: [davidigbo/](https://www.linkedin.com/in/davidigbo/)
 
+- GitHub: [@TaiwoEnoch]
+- Twitter: [@taiwoenoch4]
+- LinkedIn: [@taiwo01/]
+
+- GitHub: [@lengushuru](https://github.com/lengushuru)
+- Twitter: [@lengushuru](https://twitter.com/lengush)
+- LinkedIn: [Lengushuru Charles](https://linkedin.com/in/lengushuru)
+
+  
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
