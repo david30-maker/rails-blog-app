@@ -138,9 +138,9 @@ rspec spec/filename.rb
 
 👤 **Taiwo Enoch**
 
-- GitHub: [@TaiwoEnoch]
-- Twitter: [@taiwoenoch4]
-- LinkedIn: [@taiwo01/]
+- GitHub: [@TaiwoEnoch](https://github.com/david30-maker)
+- Twitter: [@taiwoenoch4](https://twitter.com/davidigbo1)
+- LinkedIn: [@taiwo01/](https://twitter.com/davidigbo1)
 
 👤 **Lengushuru Charles**
 
