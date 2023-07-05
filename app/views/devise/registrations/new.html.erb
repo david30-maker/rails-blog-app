@@ -1,14 +1,15 @@
 <%
 =begin%>
  <h2>Sign up</h2>
-
+<div class="sign-up">
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= f.email_field :email, autofocus: true, autocomplete: 'email' %>
+  <%= f.email_field :email, autofocus: true, autocomplete: 'email', placeholder: 'username', class: "form-pass"  %>
 
-  <%= f.password_field :password, autocomplete: 'new-password' %>
-  <%= f.password_field :password_confirmation, autocomplete: 'new-password' %>
+  <%= f.password_field :password, autocomplete: 'new-password', placeholder: 'new password', class: "form-pass"  %>
+  <%= f.password_field :password_confirmation, autocomplete: 'new-password', placeholder: 'new password', class: "form-pass"  %>
 
-  <%= f.submit 'Sign up' %>
+  <%= f.submit 'Sign up', class: "submit_sign_up" %>
+  </div>
 <% end %> 
 <%
 =end%>

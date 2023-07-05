@@ -1,8 +1,11 @@
-<h2>Log in</h2>
+<%= stylesheet_link_tag('session-new')%>
 
+<h2>Log in</h2>
+<div class="log_in">
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <%= f.email_field :email, autofocus: true, autocomplete: 'email', placeholder: 'username' %>
-  <%= f.password_field :password, autocomplete: 'current-password', placeholder: 'password' %>
-  <%= f.submit 'Log in' %>
+  <%= f.email_field :email, autofocus: true, autocomplete: 'email', placeholder: 'username', class: "form_input"  %>
+  <%= f.password_field :password, autocomplete: 'current-password', placeholder: 'password', class: "form_input" %>
+  <%= f.submit 'Log in', class: "log_submit" %>
+  </div>
 <% end %>
 
