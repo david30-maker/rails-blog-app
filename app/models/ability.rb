@@ -7,7 +7,7 @@ class Ability
     end
 
     can :destroy, Comment do |comment|
-      comment.user == user || (user && user.role == "admin")
+      comment.user == user || (user && user.role == 'admin')
     end
 
     # Define abilities for the passed in user here. For example:
@@ -23,7 +23,7 @@ class Ability
     # permission to do.
     # If you pass :manage it will apply to every action. Other common actions
     # here are :read, :create, :update and :destroy.
-    #git
+    # git
     # The second argument is the resource the user can perform the action on.
     # If you pass :all it will apply to every resource. Otherwise pass a Ruby
     # class of the resource.
