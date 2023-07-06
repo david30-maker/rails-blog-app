@@ -34,8 +34,6 @@
   <%= link_to "Delete", user_post_path(@post), method: :delete, data: { confirm: "Are you sure you want to delete this post?" } %>
 <% end %>
 
-<%
-=begin%>
  <% @comments.each do |comment| %>
   <div class="comment">
     <%= comment.content %>
@@ -45,8 +43,6 @@
     <% end %>
   </div>
 <% end %> 
-<%
-=end%>
 
 </div>
 
