@@ -18,7 +18,6 @@
   <%= f.password_field :password, autocomplete: 'new-password', placeholder: 'new password', class: "form-pass"  %>
   <%= f.password_field :password_confirmation, autocomplete: 'new-password', placeholder: 'new password', class: "form-pass"  %>
   <%= f.submit 'Sign up', class: "submit_sign_up" %>
-    <%= f.submit 'Sign up' %>
   </div>
   <% end %>
   <p>Already have an account? <%= link_to 'Log in', new_user_session_path %></p>
