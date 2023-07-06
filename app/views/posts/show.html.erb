@@ -29,4 +29,20 @@
         <%= link_to "Comment", new_user_post_comment_path( post_id: @post.id), { class: "user_link" } %>
       </button>
     </div>
+
+    <% if can? :destroy, @post %>
+  <%= link_to "Delete", user_post_path(@post), method: :delete, data: { confirm: "Are you sure you want to delete this post?" } %>
+<% end %>
+
+ <% @comments.each do |comment| %>
+  <div class="comment">
+    <%= comment.content %>
+
+    <% if can? :destroy, comment %>
+      <%= link_to "Delete", user_post_comment_path(comment), method: :delete, data: { confirm: "Are you sure you want to delete this comment?" } %>
+    <% end %>
+  </div>
+<% end %> 
+
 </div>
+
