@@ -6,9 +6,9 @@ class Ability
       post.author == user || (user && user.role == 'admin')
     end
 
-    # can :destroy, Comment do |comment|
-    #   comment.user == user || (user && user.role == "admin")
-    # end
+    can :destroy, Comment do |comment|
+      comment.user == user || (user && user.role == "admin")
+    end
 
     # Define abilities for the passed in user here. For example:
     #
