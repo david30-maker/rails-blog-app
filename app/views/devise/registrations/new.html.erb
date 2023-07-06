@@ -5,7 +5,7 @@
 <% if user_signed_in? %>
 <div class="log_in">
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <%= f.email_field :email, autofocus: true, autocomplete: 'email', placeholder: 'youremail@email.com', class: "form_input"  %>
+  <%= f.email_field :email, autofocus: true, autocomplete: 'email', placeholder: 'username', class: "form_input"  %>
   <%= f.password_field :password, autocomplete: 'current-password', placeholder: 'password', class: "form_input" %>
   <%= f.submit 'Log in', class: "log_submit" %>
   <% end %>
