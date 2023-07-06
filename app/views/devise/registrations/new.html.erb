@@ -3,14 +3,14 @@
 
 <!-- app/views/devise/registrations/new.html.erb -->
 <% if user_signed_in? %>
-    <div class="log_in">
+<div class="log_in">
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <%= f.email_field :email, autofocus: true, autocomplete: 'email', placeholder: 'youremail@email.com', class: "form_input"  %>
   <%= f.password_field :password, autocomplete: 'current-password', placeholder: 'password', class: "form_input" %>
   <%= f.submit 'Log in', class: "log_submit" %>
-  </div>
   <% end %>
   <p>Don't have an account? <%= link_to 'Sign up', new_user_registration_path %></p>
+  </div>
 <% else %>
   <div class="sign-up">
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -18,7 +18,7 @@
   <%= f.password_field :password, autocomplete: 'new-password', placeholder: 'new password', class: "form-pass"  %>
   <%= f.password_field :password_confirmation, autocomplete: 'new-password', placeholder: 'new password', class: "form-pass"  %>
   <%= f.submit 'Sign up', class: "submit_sign_up" %>
-  </div>
   <% end %>
-  <p>Already have an account? <%= link_to 'Log in', new_user_session_path %></p>
+  <p class="p-account">Already have an account? <%= link_to 'Log in', new_user_session_path %></p>
+  </div>
 <% end %>
