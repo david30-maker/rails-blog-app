@@ -1,6 +1,5 @@
-<%
-=begin%>
- <h2>Resend confirmation instructions</h2>
+<%=begin%>
+ <span>Resend confirmation instructions</span>
 
 <%= form_for(resource, as: resource_name, url: confirmation_path(resource_name)) do |f| %>
   <%= f.email_field :email, autofocus: true, autocomplete: 'email'%>
