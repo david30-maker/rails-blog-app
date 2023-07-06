@@ -9,23 +9,26 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
+- [� Table of Contents](#-table-of-contents)
+- [📖 \[Rails-blog-app\] ](#-rails-blog-app-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [To get a local copy up and running, follow these steps.](#to-get-a-local-copy-up-and-running-follow-these-steps)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
+    - [- where filename.rb is the name of the Railsfile you want to run.](#--where-filenamerb-is-the-name-of-the-railsfile-you-want-to-run)
   - [Run tests](#run-tests)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -138,9 +141,9 @@ rspec spec/filename.rb
 
 👤 **Taiwo Enoch**
 
-- GitHub: [@TaiwoEnoch](https://github.com/david30-maker)
-- Twitter: [@taiwoenoch4](https://twitter.com/davidigbo1)
-- LinkedIn: [@taiwo01/](https://twitter.com/davidigbo1)
+- GitHub: [@TaiwoEnoch](https://github.com/TaiwoEnoch)
+- Twitter: [@taiwoenoch4](https://twitter.com/taiwoenoch4)
+- LinkedIn: [@taiwo01/](https://www.linkedin.com/in/taiwo01/)
 
 👤 **Lengushuru Charles**
 
