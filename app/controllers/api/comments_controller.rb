@@ -1,13 +1,13 @@
 class Api::CommentsController < ApplicationController
   def index
-    post = Post.find_by(params[:post_id])
+    post = Post.find_by(:id, params[:post_id])
     comments = post.comments
 
     render json: comments
   end
 
   def create
-    post = Post.find_by(params[:post_id])
+    post = Post.find_by(:id, params[:post_id])
     comment = post.comments.new(comment_params)
     comment.user = current_user
 
