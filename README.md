@@ -28,8 +28,6 @@
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [Rails-blog-app] <a name="about-project"></a>
 
 > ## The **Rails-blog-app** project 'BlogApp' app is a Ruby on Rails based that allows Users to make a comment on posts, like the posts and posts as well.
